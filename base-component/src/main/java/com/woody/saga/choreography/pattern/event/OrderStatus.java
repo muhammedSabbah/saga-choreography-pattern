@@ -2,5 +2,5 @@ package com.woody.saga.choreography.pattern.event;
 
 public enum OrderStatus {
 
-	ORDER_CREATED, ORDER_FAILED
+	ORDER_CREATED,ORDER_COMPLETED, ORDER_FAILED
 }
