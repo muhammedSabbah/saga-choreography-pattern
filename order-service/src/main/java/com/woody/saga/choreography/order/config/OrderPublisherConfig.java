@@ -1,4 +1,4 @@
-package com.woody.saga.choreography.order.conf;
+package com.woody.saga.choreography.order.config;
 
 import java.util.function.Supplier;
 

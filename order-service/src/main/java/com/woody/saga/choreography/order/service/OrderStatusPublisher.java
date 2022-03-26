@@ -8,6 +8,7 @@ import com.woody.saga.choreography.pattern.event.OrderEvent;
 import com.woody.saga.choreography.pattern.event.OrderStatus;
 
 import reactor.core.publisher.Sinks;
+import reactor.core.publisher.Sinks.EmitResult;
 
 @Service
 public class OrderStatusPublisher {
@@ -26,7 +27,9 @@ public class OrderStatusPublisher {
 	public void publishOrderEvent(OrderRequestDTO orderRequestDTO, OrderStatus orderStatus) {
 
 		OrderEvent orderEvent = new OrderEvent(orderRequestDTO, orderStatus);
-		getOrderSinks().tryEmitNext(orderEvent);
+		EmitResult emitResult = getOrderSinks().tryEmitNext(orderEvent);
+		System.out.println(getClass().getCanonicalName() + ", Publish Order Evenet , emitResult IS SUCCESS : "
+				+ emitResult.isSuccess());
 
 	}
 }

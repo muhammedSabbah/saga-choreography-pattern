@@ -1,7 +1,7 @@
 A:\Spring\MicroService\saga-choreography-pattern\order-service\src\main\java\com\woody\saga\choreography\order\repository\OrderRepository.java
+A:\Spring\MicroService\saga-choreography-pattern\order-service\src\main\java\com\woody\saga\choreography\order\config\OrderPublisherConfig.java
 A:\Spring\MicroService\saga-choreography-pattern\order-service\src\main\java\com\woody\saga\choreography\order\controller\OrderController.java
 A:\Spring\MicroService\saga-choreography-pattern\order-service\src\main\java\com\woody\saga\choreography\order\OrderServiceApplication.java
-A:\Spring\MicroService\saga-choreography-pattern\order-service\src\main\java\com\woody\saga\choreography\order\conf\OrderPublisherConfig.java
 A:\Spring\MicroService\saga-choreography-pattern\order-service\src\main\java\com\woody\saga\choreography\order\service\OrderServiceImpl.java
 A:\Spring\MicroService\saga-choreography-pattern\order-service\src\main\java\com\woody\saga\choreography\order\service\OrderService.java
 A:\Spring\MicroService\saga-choreography-pattern\order-service\src\main\java\com\woody\saga\choreography\order\entity\PurchaseOrder.java
